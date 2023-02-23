@@ -1,1 +1,5 @@
-The function to that was integrated was Cos(2 Pi x) from 0 to 2The analytical result, using an approximation of Pi, of the integration is -7.796343665038751e-17The integration result of the rectangle rule is -6.938893903907228e-17The integration result of the trapazoid rule is -2.7755575615628914e-17The integration result of the Gaussian Quadrature method is -8.604228440844963e-16
+The function to that was integrated was Cos(2 Pi x) from 0 to 2
+The analytical result, using an approximation of Pi, of the integration is -7.796343665038751e-17
+The integration result of the rectangle rule is -6.938893903907228e-17
+The integration result of the trapazoid rule is -2.7755575615628914e-17
+The integration result of the Gaussian Quadrature method is -8.604228440844963e-16

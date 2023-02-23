@@ -54,7 +54,9 @@ if __name__ == "__main__":
         a = float(sys.argv[p+1])    
     if '-xmax' in sys.argv:
         p = sys.argv.index('-xmax')
-        b = float(sys.argv[p+1]) 
+        b = float(sys.argv[p+1])
+    #Number of nodes for the Gaussian method
+    numnodes = (b-a)/hdis
     if '-numnodes' in sys.argv:
         p = sys.argv.index('numnodes')
         numnodes = int(sys.argv[p+1]) 
@@ -64,8 +66,7 @@ if __name__ == "__main__":
         doOutputFile = True
         
         
-    #Number of nodes for the Gaussian method
-    numnodes = (b-a)/hdis
+
 
 #Function setup for actual and rule setups############################################
     #Actual function
@@ -116,11 +117,11 @@ if __name__ == "__main__":
 #Outputting Results ######################################################
     if doOutputFile:
         outfile = open(OutputFileName, 'w')
-        outfile.write("The function to that was integrated was Cos(2 Pi x) from %s to %s" % (a, b))
-        outfile.write("The analytical result, using an approximation of Pi, of the integration is %s" % intactual)
-        outfile.write("The integration result of the rectangle rule is %s" % recsum)
-        outfile.write("The integration result of the trapazoid rule is %s" % FsumTrap)
-        outfile.write("The integration result of the Gaussian Quadrature method is %s" % quadintegral)
+        outfile.write("The function to that was integrated was Cos(2 Pi x) from %s to %s \n" % (a, b))
+        outfile.write("The analytical result, using an approximation of Pi, of the integration is %s \n" % intactual)
+        outfile.write("The integration result of the rectangle rule is %s \n" % recsum)
+        outfile.write("The integration result of the trapazoid rule is %s \n" % FsumTrap)
+        outfile.write("The integration result of the Gaussian Quadrature method is %s \n" % quadintegral)
         outfile.write("\n")
         outfile.close()
     else:
