@@ -22,3 +22,6 @@ Since the Cos(2 Pi x) was integrated from 0 to 2, the result should be 0. As we 
 Surprisingly, one of the approximations got a better result than this. The trapazoid rule got -2.7755575615628914e-17, which is closer to 0. It also beat out the Gaussian quadrature method which obtained -8.604228440844963e-16 for its calculation of the integral.
 
 This amount that the function is off though, at least for this case, is not necessarily indicative of their actual error in general. The interval used in this example was specifically chosen make the trapazoid rule maximally effective. Normally we would expect the Gaussian quadrature method to produce a result with less error, but the fact that math.pi is just an approximation and that the interval used was specifically chosen for the trapazoid method allowed us to get a better answer this way with the trapazoid method.
+
+### Asistance
+Received help on the coding part of the Gaussian quadrature method from ChatGPT. More details about this are included in the code above the `gauss_quad_integrate` functionn
