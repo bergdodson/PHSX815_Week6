@@ -31,7 +31,7 @@ Received help on the coding part of the Gaussian quadrature method from ChatGPT.
 
 
 ## HW7
-This file contains the code for HW 7. 
+This file contains the code for HW 7. Since I wasn't sure where to put the discussion on error, I'll put it here. It looks like the error I'm getting is proportional to 1/Sqrt(N).
 
 ### HW7.py 
 This file runs the integration for for the function F(x,y) defined over the domain x^2 + y^2 < 1 [Student's note: in order to get anything interesting, this interval was modified to only be the first quadrant (x, y > 0) since F is an odd function]. The integral is then printed to a file or console, according to user included flags.
