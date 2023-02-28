@@ -1,0 +1,2 @@
+The function to that was integrated was Cos(x)*Sin(y) over the domain x, y: x^2 + y^2 < 1The numerical result obtained using mathematica, because I spent too long looking for a analytical solution, is 0.281081The Monte Carlo integration method result with 10000.0 successful measures is 0.2824539600045193 
+
