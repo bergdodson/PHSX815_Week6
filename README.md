@@ -30,7 +30,7 @@ This program depends on the numpy package.
 Received help on the coding part of the Gaussian quadrature method from ChatGPT. More details about this are included in the code above the `gauss_quad_integrate` functionn
 
 
-## HW 7
+## HW7
 This file contains the code for HW 7. 
 
 ### HW7.py 
@@ -46,7 +46,8 @@ The output of the file are the analytical results for the integration (or rather
 This is the text file made by HW7.py
 
 ### Dependancies
-This program is dependant on the following packages:
+This program is dependant on the following packages and classes:
 - numpy
 - math
+- Random.py 
 
